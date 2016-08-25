@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Videos_Anuncio]
+(
+	[id] INT NOT NULL PRIMARY KEY,
+	[ruta] VARCHAR(100) NOT NULL, 
+	[idAnuncio] INT NOT NULL REFERENCES Anuncio(id) ON DELETE CASCADE ON UPDATE CASCADE
+)
