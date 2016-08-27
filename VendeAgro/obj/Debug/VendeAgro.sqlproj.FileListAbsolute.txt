@@ -7,3 +7,8 @@ c:\users\estef\documents\visual studio 2015\Projects\VendeAgro\VendeAgro\obj\Deb
 c:\users\estef\documents\visual studio 2015\Projects\VendeAgro\VendeAgro\obj\Debug\refactor.xml
 c:\users\estef\documents\visual studio 2015\Projects\VendeAgro\VendeAgro\obj\Debug\postdeploy.sql
 c:\users\estef\documents\visual studio 2015\Projects\VendeAgro\VendeAgro\obj\Debug\predeploy.sql
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\bin\Debug\VendeAgro.dacpac
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\bin\Debug\VendeAgro.dll
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\bin\Debug\VendeAgro.pdb
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\VendeAgro.dll
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\VendeAgro.pdb
