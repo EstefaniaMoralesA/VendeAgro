@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Usuario_Tarjeta]
 (
-	[id] INT NOT NULL PRIMARY KEY, 
+	[id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
 	[tipoTarjeta] INT NOT NULL, 
 	[digitosTarjeta] INT NOT NULL, 
 	[fechaVencimiento] DATE NOT NULL, 

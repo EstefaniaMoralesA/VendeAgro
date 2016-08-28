@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Anuncio]
 (
-	[id] INT NOT NULL PRIMARY KEY, 
+	[id] INT NOT NULL PRIMARY KEY IDENTITY(1,1), 
 	[titulo] VARCHAR(30) NOT NULL, 
 	[descripcion] VARCHAR(250) NOT NULL, 
 	[precio] FLOAT NOT NULL, 
