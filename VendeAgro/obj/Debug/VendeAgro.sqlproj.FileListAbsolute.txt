@@ -12,3 +12,7 @@ C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\bin\Debug\VendeAgro.
 C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\bin\Debug\VendeAgro.pdb
 C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\VendeAgro.dll
 C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\VendeAgro.pdb
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\Model.xml
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\refactor.xml
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\postdeploy.sql
+C:\Users\SantiFdezM\Documents\VendeAgro\VendeAgro\VendeAgro\obj\Debug\predeploy.sql

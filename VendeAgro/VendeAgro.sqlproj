@@ -78,5 +78,6 @@
     <Build Include="Banner.sql" />
     <Build Include="Conekta_Paquete.sql" />
     <Build Include="Paquete.sql" />
+    <Build Include="Pais.sql" />
   </ItemGroup>
 </Project>
