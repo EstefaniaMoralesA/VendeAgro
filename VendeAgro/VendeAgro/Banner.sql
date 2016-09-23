@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Banner]
+(
+	[id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[ruta] VARCHAR(100) NOT NULL,
+	[link] VARCHAR(150) NOT NULL, 
+	[activo] BIT NOT NULL, 
+	[tipo] INT NOT NULL
+)

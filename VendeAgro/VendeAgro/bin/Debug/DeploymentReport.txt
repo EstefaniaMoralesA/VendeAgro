@@ -1,0 +1,110 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Anuncio]
+       [dbo].[Anuncio_Beneficio]
+       [dbo].[Beneficio]
+       [dbo].[Categoria]
+       [dbo].[Ciudad]
+       [dbo].[Estado]
+       [dbo].[Fotos_Anuncio]
+       [dbo].[Metricas]
+       [dbo].[Pago]
+       [dbo].[Pago_Concepto]
+       [dbo].[Subcategoria]
+       [dbo].[Usuario]
+       [dbo].[Usuario_Administrador]
+       [dbo].[Usuario_Tarjeta]
+       [dbo].[Videos_Anuncio]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Pago_Concepto].[idPlazo] is being dropped, data loss could occur.
+       The column [dbo].[Usuario].[token] is being dropped, data loss could occur.
+       The column [dbo].[Usuario].[tokenEmail] on table [dbo].[Usuario] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Usuario].[tokenSesion] on table [dbo].[Usuario] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Usuario_Administrador].[token] is being dropped, data loss could occur.
+       The column [dbo].[Usuario_Administrador].[tokenEmail] on table [dbo].[Usuario_Administrador] must be added, but the
+         column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work.
+         To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+       The column [dbo].[Usuario_Administrador].[tokenSesion] on table [dbo].[Usuario_Administrador] must be added, but the
+         column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work.
+         To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Anuncio] (Foreign Key)
+       unnamed constraint on [dbo].[Anuncio] (Foreign Key)
+       unnamed constraint on [dbo].[Anuncio] (Foreign Key)
+       unnamed constraint on [dbo].[Anuncio_Beneficio] (Foreign Key)
+       unnamed constraint on [dbo].[Anuncio_Plazo] (Foreign Key)
+       unnamed constraint on [dbo].[Fotos_Anuncio] (Foreign Key)
+       unnamed constraint on [dbo].[Videos_Anuncio] (Foreign Key)
+       unnamed constraint on [dbo].[Anuncio_Beneficio] (Foreign Key)
+       unnamed constraint on [dbo].[Pago_Concepto] (Foreign Key)
+       unnamed constraint on [dbo].[Subcategoria] (Foreign Key)
+       unnamed constraint on [dbo].[Ciudad] (Foreign Key)
+       unnamed constraint on [dbo].[Pago] (Foreign Key)
+       unnamed constraint on [dbo].[Pago_Concepto] (Foreign Key)
+       unnamed constraint on [dbo].[Pago_Concepto] (Foreign Key)
+       unnamed constraint on [dbo].[Usuario_Tarjeta] (Foreign Key)
+     Table rebuild
+       [dbo].[Anuncio] (Table)
+       [dbo].[Anuncio_Beneficio] (Table)
+       [dbo].[Beneficio] (Table)
+       [dbo].[Categoria] (Table)
+       [dbo].[Ciudad] (Table)
+       [dbo].[Estado] (Table)
+       [dbo].[Fotos_Anuncio] (Table)
+       [dbo].[Metricas] (Table)
+       [dbo].[Pago] (Table)
+       [dbo].[Pago_Concepto] (Table)
+       [dbo].[Subcategoria] (Table)
+       [dbo].[Usuario] (Table)
+       [dbo].[Usuario_Administrador] (Table)
+       [dbo].[Usuario_Tarjeta] (Table)
+       [dbo].[Videos_Anuncio] (Table)
+     Create
+       [dbo].[Anuncio_Paquete] (Table)
+       [dbo].[Banner] (Table)
+       [dbo].[Conekta_Paquete] (Table)
+       [dbo].[Paquete] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Pago_Concepto] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Anuncio_Paquete] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Anuncio_Paquete] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Conekta_Paquete] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Conekta_Paquete] (Foreign Key)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Anuncio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Anuncio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Anuncio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Anuncio_Beneficio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Fotos_Anuncio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Videos_Anuncio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Anuncio_Beneficio] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Pago_Concepto] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Subcategoria] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Ciudad] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Pago] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Pago_Concepto] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Usuario_Tarjeta] (Foreign Key)
+
+The column [dbo].[Pago_Concepto].[idPlazo] is being dropped, data loss could occur.
+The column [dbo].[Usuario].[token] is being dropped, data loss could occur.
+The column [dbo].[Usuario].[tokenEmail] on table [dbo].[Usuario] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Usuario].[tokenSesion] on table [dbo].[Usuario] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Usuario_Administrador].[token] is being dropped, data loss could occur.
+The column [dbo].[Usuario_Administrador].[tokenEmail] on table [dbo].[Usuario_Administrador] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Usuario_Administrador].[tokenSesion] on table [dbo].[Usuario_Administrador] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+
