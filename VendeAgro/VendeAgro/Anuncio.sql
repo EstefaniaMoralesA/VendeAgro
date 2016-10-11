@@ -10,5 +10,6 @@
 	[idCiudad] INT REFERENCES Ciudad(id) ON DELETE SET NULL ON UPDATE CASCADE, 
 	[clicks] INT, 
 	[vistas] INT,
-	[estado] INT NOT NULL
+	[estado] INT NOT NULL, 
+    [razonRechazo] VARCHAR(200) NULL
 )
